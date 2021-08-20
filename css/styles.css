@@ -1,0 +1,95 @@
+body {
+    background-color: #242f44;
+    color: white;
+      font-family: 'Oswald', sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 1px;
+  }
+  #resort_img {
+      margin: auto;
+      align-self: center;
+  }
+  .reflink {
+      color:darkgoldenrod;
+  }
+  
+  h1 {
+    font-size: 35px;
+    padding: 2px;
+    color: #8c6b48;
+    background-color: white;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 2px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 20px;
+    padding: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 1px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+  }
+  
+  th {
+    border: 1px solid #8c6b48;
+    background-color:dodgerblue
+  }
+  .city {
+      background-color:grey;
+      text-align: center;
+      font-weight: bold;
+      color:mediumblue
+  }
+  
+  table {
+    text-align: center;
+    
+    
+  }
+  .tabhead h1 {
+      padding: 0;
+      margin: 0;
+  }
+  
+  td {
+    border: 1px solid #8c6b48;
+    width: 100px;
+  }
+  
+  footer {
+    margin-top: 2px;
+    text-align: center;
+    position: relative;
+    width: 30%;
+    bottom: 5px;
+    background-color: #242f44;
+    z-index: 5;
+  }
+  footer h3 {
+    display: inline-block;
+    font-size: 10px;
+    font-style: italic;
+    background-color: #242f44;
+  }
+  
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 800px;
+  }
+  
+  
+  .left {
+    width: 150px;
+  }
+  
