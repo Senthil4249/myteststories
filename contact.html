@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>SampleExercise</title>
+</head>
+
+<body>
+    <!-- <img src="Resort.jpeg" alt="Trulli" width="1335" height="450" id="resort_img"> -->
+    <br>
+    <a href="./index.html" class="reflink">Home</a>
+    <a href="./contact.html" class="reflink">Reach me</a>
+    <h1>Lets connect</h1>
+    <quote>"Life is a daring adventure or nothing at all"</quote>
+
+    <fieldset>
+        <legend>Your Details</legend>
+        <form action="submission.html" method="POST">
+            <section class="details">
+                <label for="firstname">First Name :</label>
+                <input type="text" name="firstname" id="firstname" required>
+                <br>
+                <label for="lastname">Last Name :</label>
+                <input type="text" name="lastname" id="lastname" required>
+                <br>
+                <label for="country">Country       :</label>
+                <select name="country" id="country">
+                    <option value="aus">Australia</option>
+                    <option value="ind">India</option>
+                    <option value="usa">United States of America</option>
+                </select>
+            </section>
+        </form>
+        <!-- etc -->
+    </fieldset>
+    <hr>
+    <br>
+    <br>
+    <section class="hearabout">
+        <span>How did you hear about me? </span>
+        <input type="radio" name="hearabout" id="web" value="web">
+        <label for="web">Website</label>
+        <input type="radio" name="hearabout" id="fbook" value="fbook">
+        <label for="fbook">Facebook</label>
+    </section>
+    <br>
+    <hr>
+    <section class="extra-info">
+        <label for="extra">Leave your comment here:</label>
+        <br>
+        <textarea id="extra" name="extra" rows="6" cols="60" required></textarea>
+    </section>
+    <hr>
+
+    <section class="submission">
+        <input type="submit" value="Submit">
+    </section>
+    <br>
+    <br>
+    <footer>
+        <h3>Copyright 2020. All rights reserved. Made with Team 1</h3>
+    </footer>
+</body>
+
+</html>
